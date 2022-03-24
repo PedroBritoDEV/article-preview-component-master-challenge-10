@@ -1,0 +1,63 @@
+@media (max-width: 800px ){
+    main {
+        width: 330px;
+        height: 510px;
+        flex-direction: column;       
+    }
+    picture .img {
+        width: 330px;
+        height: 200px;
+        border-radius: 1em 1em 0em 0em;
+    }
+    .main-content {
+        height: 310px;
+        width: 330px;
+    }
+    .main-content .text-content {
+        padding: 40px 30px 30px 30px;
+    }
+    .main-content .text-content h2 {
+        font-size: 1.3em;
+    }
+    .main-content .text-content>p {
+    font-size: 13px;
+    width: 95%;
+    }
+    .desktop-view {
+       display: flex;
+    }
+    .active {
+        display: none!important;
+    }
+
+    .mobile-view {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 0 0 1em 1em;
+        background-color: hsl(217, 19%, 35%);
+        width: 330px;
+        height: 66px;
+        padding: 30px;
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile-view .icons {
+        margin-left: -60px;
+    }
+    .mobile-view .mbl-share-btn {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+        user-select: none;
+        background-color: hsl(212, 23%, 69%);
+    }
+    .mobile-view .icons img{
+        margin-left: 15px;
+    }
+}
+
